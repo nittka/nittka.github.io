@@ -1,0 +1,26 @@
+title: b!ANd-aid
+author: Alexander Nittka
+email: alex@nittka.de
+baseurl: ""
+url: "https://nittka.github.io"
+github_username: nittka
+
+timezone: Europe/Berlin
+paginate: 10
+paginate_path: "/blog/:num/"
+
+highlighter: rouge
+
+# pygments_options: ['lineanchors', 'linenos=table']
+#sass:
+#  style: compressed
+
+excerpt_link: "Read More ..."
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

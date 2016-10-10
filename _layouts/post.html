@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} • {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</p>
+  <p class="post-meta">tags: {{ page.tags | array_to_sentence_string }}</p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>

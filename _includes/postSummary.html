@@ -1,0 +1,5 @@
+<div class="post-excerpt">
+  <h1 class="post-title">{{ post.title }}</h1>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  {{ post.excerpt | strip_html }} <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{site.excerpt_link}}</a>
+</div>

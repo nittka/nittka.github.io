@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="blog-index">
+{% for post in paginator.posts %}
+{% assign content = post.content %}
+  {% include postSummary.html %}
+{% endfor %}
+
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">previous page</a>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">next page</a>
+  {% endif %}
+  </div>
+</div>
