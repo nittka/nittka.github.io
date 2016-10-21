@@ -5,7 +5,7 @@ excerpt: |
   This is the summary.
   Which spans multiple lines.
 ---
-This is the full article.
+This is the full article — really.
 
 ```java
   for(int i=1;i<100;i++){
