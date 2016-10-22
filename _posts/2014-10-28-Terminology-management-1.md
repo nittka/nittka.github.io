@@ -17,7 +17,7 @@ A term collection should be ordered by concept, treating all information concern
 
 There are a number of additional elements that should be included to provide enough information for a decision on which term to use.
 
-* Semantic clarification is provided by the definition — this tells you which concept a term stands for.</li>
+* Semantic clarification is provided by the definition — this tells you which concept a term stands for.
 * Pragmatic information provides clues as to what context the term can be used in. In our term base, each term can be assigned to specific software products and to customers. An example phrase can also be added to clarify the context of a term's usage or to provide a typical collocation. Terms can be marked with a status in order to be able to maintain terms that have been changed or that do no longer apply. It is also useful to explicitly include a status for 'forbidden' terms to make them accessible and to inform your colleagues that these terms have fallen from favor. For example, one could search for 'bobble' and learn that a little spherical-looking graphical element in traffic-light colors is supposed to be called a 'status marker'.
 * Syntactic information can be reduced to just giving the part of speech and, in German, the grammatical gender. This last can actually be helpful for Germans because some nouns can take more than one gender, and we want to always use one of them for consistency.
 
