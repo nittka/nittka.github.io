@@ -56,4 +56,26 @@ body{
 
 .pagination{
   margin-top:20px;
+  text-align:center;
+}
+
+
+
+.pageNavigation {
+  font-size: 80%;
+  margin-top:20px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.pageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.pageNavigation .next {
+  text-align: right;
 }
