@@ -1,0 +1,8 @@
+---
+tags: ["Xtext","revive"]
+excerpt: Every now and then the question of how to highlight matching start and end tags comes up. Xtext's built in bracket matching is limited to one-character-tags. This post provides a small sample project with a possible solution.
+---
+Folding regions, bracket matching, outline etc. are ways to provide structural information about a model. Sometimes you might want to highlight matching tags that are longer than one character. In this case Xtext's built in bracket matching may not be enough for the user.
+This post provides a simple [sample project]({{ site.url}}/assets/matchingTags.zip) indicating a solution for the Greeting Example. In the original version of the post, it was based on Xtext 1. Here the code is adapted to Xtext 2.10 — porting it to other versions should be straightforward. I shamelessly adapted code from Xtext2's mark occurrences code.
+
+The idea is to define an annotation type and re-calculate annotations when the selection changes. All the interesting code is in the UI project. The `plugin.xml` defines the annotation type (whose properties may then be changed in the preference page). The `MyDslUIModule` configures a binding to an `IXtextEditorCallback`, so that the selection change listener can be registered when the editor is opened an unregistered when it is disposed. The actual work is done in the `GreetingsMatchingTagMarker`. Its code should by quite generic. If you want to adapt it to your purposes, you'll need a different Grammar access in `TaskMarkJob` and your own logic in its `fillAnnotationMap` method. There the annotations for a particular model element are calculated.
