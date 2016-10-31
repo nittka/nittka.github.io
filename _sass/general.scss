@@ -79,3 +79,9 @@ body{
 .pageNavigation .next {
   text-align: right;
 }
+
+a[href*="//"]:not([href*="nittka"])::after {
+  content: "ext";
+  font-size: 60%;
+  vertical-align: top;
+}
