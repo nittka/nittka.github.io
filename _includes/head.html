@@ -2,6 +2,7 @@
 <head>
  <meta charset="utf-8">
  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+ {% if page.tags %}<meta name="keywords" content="blog, {{ page.tags | array_to_sentence_string }}">{% endif %}
  <meta name="author" content="{{ site.author }}">
  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
  <script type="text/javascript" src="{{ "/assets/bANdaidBlog.js" | prepend: site.baseurl }}" ></script>
