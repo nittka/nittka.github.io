@@ -51,18 +51,17 @@ div.post,
     margin-top: 2rem;
 }
 
-.post-title {
-    padding-top: 0.5rem;
-    border-top: 2px solid black;
-}
-
-.post-meta, .post-date {
+.post-meta, .post-meta-first, .post-date {
     font-weight: bolder;
     padding: 0px;
     margin: 0px;
     color: #909090;
     text-transform: uppercase;
     letter-spacing: 0.09rem;
+}
+
+.post-meta-first {
+    margin-top: 0.5rem;
 }
 
 div.post-date {
