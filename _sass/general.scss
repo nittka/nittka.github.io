@@ -1,65 +1,79 @@
-body{
- font-family: sans-serif;
- max-width: 800px;
- letter-spacing: +0.5px;
- word-spacing:+1px;
+body {
+    font-family: "Helevtica", "Arial", sans-serif;
+    max-width: 50rem;
+    letter-spacing: 0.02rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+    line-height: 1.4;
+}
+
+a {
+    color: #2080c0;
 }
 
 .blog-title {
- margin-left:30px;
- font-size: 50px;
- vertical-align:middle;
+    font-size: 250%;
+    vertical-align: middle;
+    line-height: 1.5;
 }
 
-.header{
-  background-color:#C0C0C0;
+.header {
+    margin-top: 1.5rem;
 }
 
-.header a{
-  //color:#777777;
-  color:#000000;
-  text-decoration: none;
+.header a {
+    color: #000000;
+    text-decoration: none;
 }
 
-.header a strong{
-  font-weight:900;
+.header a strong {
+    font-weight: 900;
 }
 
 .blog-title-link {
- margin-left:50px;
- vertical-align:middle;
- text-align:right;
+    margin-left: 50px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+h1.post-title {
+    font-size: 144%;
+    letter-spacing: 0.0rem;
+}
+
+div.post,
+.post-excerpt {
+    margin-top: 2rem;
 }
 
 
-
-
-.blog-index, .post{
- margin-left:100px;
- max-width:600px;
+.post-title {
+    padding-top: 0.5rem;
+    border-top: 2px solid black;
 }
 
-.post-meta, .post-date{
-  font-weight:bolder;
-  padding:0px;
-  margin:0px;
-  color:#909090;
+.post-meta {
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    color: #909090;
+    text-transform: uppercase;
+    letter-spacing: 0.09rem;
 }
 
 .post-title{
-  margin-bottom:3px;
+    padding-top: 0.5rem;
+    border-top: 2px solid black;
+    line-height: 1.0;
+    margin-top: 0.5rem;
 }
 
-.post .post-title{
-  //font-weight:800;
-}
 
 .pagination{
   margin-top:20px;
   text-align:center;
 }
-
-
 
 .pageNavigation {
   font-size: 80%;
