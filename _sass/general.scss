@@ -43,6 +43,7 @@ a {
 h1.post-title {
     font-size: 144%;
     letter-spacing: 0.0rem;
+    margin-bottom: 0rem;
 }
 
 div.post,
@@ -64,11 +65,20 @@ div.post,
     letter-spacing: 0.09rem;
 }
 
+div.post-date {
+    float : right;
+}
+
 .post-title{
     padding-top: 0.5rem;
     border-top: 2px solid black;
     line-height: 1.0;
     margin-top: 0.5rem;
+}
+
+.post-summary {
+    margin-bottom: 3.5rem;
+    clear : both;
 }
 
 
