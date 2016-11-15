@@ -12,7 +12,7 @@ Alexander and I decided to build a [terminology editor for Eclipse](https://gith
 
 A sortable outline view and a searchable quick outline provide easy access to terms. For more complete search functions, a search dialog has been implemented that lets you search not only in the terms but also in the definition text and usage examples. Search results can be filtered by term status, customer and product assignment.
 
-![Terminology Editor Screenshot]({{ site.url}}/assets/termi_sample.png){:width="600px"}
+![Terminology Editor Screenshot]({{ site.url}}/assets/termi_sample.png){:width="100%"}
 
 This was enough for me and for those who use Eclipse Galileo or later, but I also needed to make the term collection available to developers using other editors and to the marketing team who did not want to start working with Eclipse just to research terminology.
 
