@@ -47,7 +47,8 @@ h1.post-title {
 }
 
 div.post,
-.post-excerpt {
+.post-excerpt,
+.blog-index {
     margin-top: 2rem;
 }
 
@@ -80,6 +81,21 @@ div.post-date {
     clear : both;
 }
 
+.archive-group{
+  padding-top: 1.5rem;
+  clear:both;
+}
+
+.archive-year{
+  float:left;
+  font-size:130%;
+  font-weight:900;
+}
+
+.archive-list{
+  float:left;
+  margin-left: 1rem;
+}
 
 .pagination{
   margin-top:20px;

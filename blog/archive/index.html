@@ -3,11 +3,14 @@ layout: default
 ---
 
 <div class="blog-index">
-  <h1>Blog Archive</h1>
+  <h1 class="post-title">Blog Archive</h1>
+  <div style="display:none;"><div style="display:none;">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+   </div></div><div class="archive-group">
+    <div class="archive-year" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</div>
+      <div class="archive-list">
     {% assign date = currentdate %}
   {% endif %}
   <div class="archive-entry"><a href="{{ post.url }}" title="{{ post.excerpt | strip_html }}">{{ post.title }}</a></div>
