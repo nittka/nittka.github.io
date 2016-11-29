@@ -5,7 +5,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 12pt;
-    line-height: 1.4;
+    line-height: 1.45;
 }
 .body-wrapper {
     padding: 0 1em;
@@ -84,6 +84,7 @@ div.post-date {
 .archive-group{
   padding-top: 1.5rem;
   clear:both;
+  line-height: 1.7;
 }
 
 .archive-year{
@@ -95,6 +96,7 @@ div.post-date {
 .archive-list{
   float:left;
   margin-left: 1rem;
+  padding-top: 0.3rem;
 }
 
 .pagination{
