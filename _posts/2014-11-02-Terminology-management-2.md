@@ -17,7 +17,7 @@ A sortable outline view and a searchable quick outline provide easy access to te
 This was enough for me and for those who use Eclipse Galileo or later, but I also needed to make the term collection available to developers using other editors and to the marketing team who did not want to start working with Eclipse just to research terminology.
 
 ### Research options for terminology end users
-I started with exporter providing the terms and definition as a wiki markup table I can paste into our Confluence wiki. This works well so far, but does not provide all the information contained in the term collection, or the editor's advanced search functions. Also, it still is not easy enough to use to incite the developers to actually look something up, now that the terminology is available.
+I started with an exporter providing the terms and definitions as a wiki markup table I can paste into our Confluence wiki. This works well so far, but does not provide all the information contained in the term collection, or the editor's advanced search functions. Also, it still is not easy enough to use to incite the developers to actually look something up, now that the terminology is available.
 
 To make looking terms up more user friendly, a JSON exporter was added to the terminology editor. The JSON export works with an HTML search site based on jQuery and filter.js to provide filterable search functions in a browser. The HTML search site actually provides more search options now than the terminology search within the editor, as the users immediately came up with stuff I never thought of needing, such as filtering the search by language - even though we only use two of them! :-)
 

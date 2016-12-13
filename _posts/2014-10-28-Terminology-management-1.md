@@ -23,10 +23,10 @@ There are a number of additional elements that should be included to provide eno
 
 ![bobble]({{ site.url }}/assets/bobble.png)
 
-Once you have painstakingly collected all this information for a number of terms, you can start to worry about how people are actually going to access this information. Likely the most important feature of a term base is that it is searchable — at a minimum, you want to search for terms and also be informed when they occur in a definition. If you maintain pragmatic information, you will also want to search this, for example, find all terms that are specific to a certain customer's version of product X. Ideally, the information should be provided in a way that is easy to integrate with the habits of the non-linguists in you organization.
+Once you have painstakingly collected all this information for a number of terms, you can start to worry about how people are actually going to access this information. Likely the most important feature of a term base is that it is searchable — at a minimum, you want to search for terms and also be informed when they occur in a definition. If you maintain pragmatic information, you will also want to search this, for example, find all terms that are specific to a certain customer's version of product X. Ideally, the information should be provided in a way that is easy to integrate with the habits of the non-linguists in your organization.
 
 ### Typical solutions
-To be brutally honest, most translators and technical writers just keep word lists in a spreadsheet program. It's not really what those programs were made for, but this can still work out OK for not-too-large collections and a not-to-large number of users.
+To be brutally honest, most translators and technical writers just keep word lists in a spreadsheet program. It's not really what those programs were made for, but this can still work out OK for not-too-large collections and a not-too-large number of users.
 
 I did not expect the spreadsheet solution to work out OK for me because I have seen too many spreadsheets floating in the limbo of shared network folders in uncountable personal versions — we're just too many people for this. Also, a spreadsheet makes it hard to maintain an entry structure that has more than, say, two or three terms and a definition.
 
