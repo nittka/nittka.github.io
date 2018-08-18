@@ -78,4 +78,4 @@ viscolor(400+X,black):-f(X).
 ```
 
 Given the [evil sudoku instance from Joel](https://github.com/joelverhagen/Sudoku-Solver-in-Clasp-Gringo/blob/master/puzzle_evil.lp), the result of solving and visualising looks as follows:
-![Sudoku]({{ site.url }}/assets/asp_sudoku.jpg "evil sudoku"){:width="468" align="center"}
+![Sudoku]({{ site.url }}/assets/asp_sudoku.jpg "evil sudoku"){:width="468" .center-image}

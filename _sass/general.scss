@@ -128,3 +128,8 @@ a[href*="//"]:not([href*="nittka"])::after {
   font-size: 60%;
   vertical-align: top;
 }
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
